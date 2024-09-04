@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive burger website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <div>
+            <img src="assets/img/logo-burger.svg" alt="logo" />
+          </div>
+          Burger
+        </a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li>
+              <a href="#home" class="nav_link active-link">Home</a>
+            </li>
+            <li>
+              <a href="#recipe" class="nav_link">Recipe</a>
+            </li>
+            <li>
+              <a href="#popular" class="nav_link">Popular</a>
+            </li>
+            <li>
+              <a href="#delivery" class="nav_link">Delivery</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+          </ul>
+          <!-- close button -->
+          <div class="nav_close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+        <!-- toggle button -->
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_data">
+            <h1 class="home_title">
+              Love Every <br />
+              Burger
+            </h1>
+
+            <p class="home_description">
+              We serve the best burgers on the planet, paving the way for
+              cooking and preparing hot, delicious burgers.
+            </p>
+
+            <a href="#popular" class="button">Bite Now</a>
+
+            <img
+              src="assets/img/sticker-potatoes.svg"
+              alt="sticker"
+              class="home_sticker"
+            />
+          </div>
+
+          <div class="home_images">
+            <img
+              src="assets/img/home-burger.png"
+              alt="home-burger"
+              class="home_burger"
+            />
+            <img
+              src="assets/img/home-dish.png"
+              alt="home-dish"
+              class="home_dish"
+            />
+            <img
+              src="assets/img/home-potato.png"
+              alt="home-potato"
+              class="home_ingredient home_potato-1"
+            />
+            <img
+              src="assets/img/home-potato.png"
+              alt="home-potato"
+              class="home_ingredient home_potato-2"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="home-tomato"
+              class="home_ingredient home_tomato-1"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="home-tomato"
+              class="home_ingredient home_tomato-2"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt="home-tomato"
+              class="home_ingredient home_lettuce-1"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt="home-tomato"
+              class="home_ingredient home_lettuce-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== RECIPE ====================-->
+      <section class="recipe section" id="recipe">
+        <h2 class="section__title">Our Secret Recipe</h2>
+        <div class="recipe_container container grid">
+          <div class="recipe_image">
+            <img
+              src="assets/img/recipe-burger.png"
+              alt="recipe"
+              class="recipe_img"
+            />
+          </div>
+          <div class="recope_data">
+            <div class="recipe_card">
+              <div class="recipe_box">
+                <img src="assets/img/recipe-bread.png" alt="bread" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Bread</h3>
+                <p class="recipe_description">
+                  Fresh bread, baked to perfection.
+                </p>
+              </div>
+            </div>
+            <div class="recipe_card">
+              <div class="recipe_box">
+                <img src="assets/img/recipe-cheese.png" alt="bread" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Cheese</h3>
+                <p class="recipe_description">
+                  Cheese for a fantastic and healthy future.
+                </p>
+              </div>
+            </div>
+            <div class="recipe_card">
+              <div class="recipe_box">
+                <img src="assets/img/recipe-meat.png" alt="bread" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Meat</h3>
+                <p class="recipe_description">100% pure beef, big and meaty.</p>
+              </div>
+            </div>
+            <div class="recipe_card">
+              <div class="recipe_box">
+                <img src="assets/img/recipe-vegetable.png" alt="bread" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Vegetables</h3>
+                <p class="recipe_description">
+                  Vegetables full of the essence of nature and organic.
+                </p>
+              </div>
+            </div>
+            <div class="recipe_card">
+              <div class="recipe_box">
+                <img src="assets/img/recipe-sauces.png" alt="bread" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Sauces</h3>
+                <p class="recipe_description">
+                  Fresh sauces, delicious for the palate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h2 class="section__title">
+          Most Devoured <br />
+          Burgers
+        </h2>
+        <div class="popular_container container grid">
+          <article class="popular_card">
+            <img
+              src="assets/img/popular-burger-chicken.png"
+              alt="chicken"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Chicken <br />
+              Burger
+            </h2>
+            <span class="popular_price">$6 </span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+          <article class="popular_card">
+            <img
+              src="assets/img/popular-burger-meat.png"
+              alt="chicken"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Meat <br />
+              Burger
+            </h2>
+            <span class="popular_price">$10 </span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+          <article class="popular_card">
+            <img
+              src="assets/img/popular-burger-grill.png"
+              alt="chicken"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Grill <br />
+              Burger
+            </h2>
+            <span class="popular_price">$12 </span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+          <article class="popular_card">
+            <img
+              src="assets/img/popular-burger-classic.png"
+              alt="chicken"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Classic <br />
+              Burger
+            </h2>
+            <span class="popular_price">$8 </span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+          <article class="popular_card">
+            <img
+              src="assets/img/popular-burger-big.png"
+              alt="chicken"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Big <br />
+              Burger
+            </h2>
+            <span class="popular_price">$15 </span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== DELIVERY ====================-->
+      <section class="delivery section" id="delivery">
+        <div class="delivery_container container grid">
+          <div class="delivery_data">
+            <h2 class="delivery_title">Fast Delivery</h2>
+            <p class="delivery_decsription">
+              Place your order for your favorite burger and we will deliver it
+              to your door in minutes, get in touch and don't leave hungry.
+            </p>
+            <a href="#" class="button">Contact Now </a>
+            <img
+              src="assets/img/sticker-glass.svg"
+              alt="glass"
+              class="delivery_sticker"
+            />
+          </div>
+          <img
+            src="assets/img/delivery-burger.png"
+            alt="delivery"
+            class="delivery_img"
+          />
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact_container container grid">
+          <h2 class="section__title">Contact Now</h2>
+          <div class="contact_content grid">
+            <div class="contact_data">
+              <div>
+                <h3 class="contact_title">Write Us</h3>
+                <div class="contact_social">
+                  <a href="#" target="blank">
+                    <i class="ri-facebook-circle-fill"></i>
+                  </a>
+
+                  <a href="#" target="blank">
+                    <i class="ri-whatsapp-fill"></i>
+                  </a>
+
+                  <a href="#" target="blank">
+                    <i class="ri-telegram-fill"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <h3 class="contact_title">Call Us and Order</h3>
+                <address class="contact_info">
+                  +00-111-111-111 <br />
+                  +11-012345
+                </address>
+              </div>
+
+              <div>
+                <h3 class="contact_title">Find us here</h3>
+                <address class="contact_info">Cairo - Cairo - Cairo</address>
+              </div>
+            </div>
+            <div class="contact_image">
+              <img
+                src="assets/img/contact-man.png"
+                alt="contact"
+                class="contact_img"
+              />
+            </div>
+          </div>
+          <img
+            src="assets/img/sticker-burger.svg"
+            alt=""
+            class="contact_sticker-1"
+          />
+          <img
+            src="assets/img/sticker-soda.svg"
+            alt=""
+            class="contact_sticker-2"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <div class="footer_logo">Burger</div>
+        <div class="footer_content grid">
+          <a href="#" class="footer_link">Terms & Agreements </a>
+          <a href="#" class="footer_link">Privacy Policy </a>
+          <div class="footer_social">
+            <a href="#" target="_blank">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <span class="footer_copy"> &#169; All Rights Reserved By Bedimcode </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
